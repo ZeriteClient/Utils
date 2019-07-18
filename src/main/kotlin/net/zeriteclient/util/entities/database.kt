@@ -3,7 +3,6 @@ package net.zeriteclient.util.entities
 data class User(
     val username: String,
     val uuid: String,
-    var accessToken: String? = "",
     val cosmetics: ArrayList<Cosmetic>,
     val admin: Boolean? = false,
     val cosmeticMeta: CosmeticMeta? = CosmeticMeta(),

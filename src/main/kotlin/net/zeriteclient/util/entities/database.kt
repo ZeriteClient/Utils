@@ -16,7 +16,8 @@ data class CosmeticMeta(
 class UserMeta
 
 data class CapeMeta(
-    val selected: EnumCape = EnumCape.NONE
+    val selected: EnumCape = EnumCape.NONE,
+    val url: String? = null
 )
 
 enum class EnumCape {
